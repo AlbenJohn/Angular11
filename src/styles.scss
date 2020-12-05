@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+.l_navbar{
+    height: 4vh;
+    background:#ddd;
+}
+.l_mainwrapper{
+    display: flex;
+    .l_sidearea{
+        height: 94vh;
+        width:15vw;
+        background: #f1f1f1;
+    }
+    .l_mainarea{
+        height: 94vh;
+        width: 100%;
+        background: #fbcccc;
+    }
+}
+.l_footer{
+    height: 2vh;
+    background:#ddd;
+}
